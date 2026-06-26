@@ -64,9 +64,9 @@ p{
 
 .image{
     display: inline-block;    
-    max-height: 600px;
-    width: auto;
-    margin: 20px;
+    height: auto;
+    width: 85%;
+    margin: 10px;
     padding: 5px;
     border: #386641;
     border-style: double;
