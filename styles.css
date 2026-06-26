@@ -1,0 +1,97 @@
+/*
+    Color Palate
+
+ #386641 ~Hunter Green
+ #6a994e ~Sage Green
+ #a7c957 ~Yellow Green
+ #f2e8cf ~Champagne Mist
+ #bc4749 ~Blushed Brick
+*/
+
+body{
+    background-color: #f2e8cf;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0px;
+}
+
+a{
+    color:#a7c957 ;
+}
+
+p{
+    margin: 10px;
+    padding: 20px;
+    background-color:#6a994e ;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #bc4749;
+    display: block;
+    padding: 10px;
+    border: 5px solid  white;
+    border-radius: 10px;
+    border-style:double;
+    color: #f2e8cf;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+
+.title {
+    background-color: #bc4749;
+    margin: 20px;
+    margin-top: 35px;
+    padding: 2px 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: large;
+    color: #f2e8cf;
+    border-radius: 20px;
+}
+
+.selection{
+    padding: 40px 50px;
+    margin: 10px 30px;
+    background-color: #386641;
+    font-size: 20px;
+
+}
+
+.image{
+    display: inline-block;    
+    max-height: 600px;
+    width: auto;
+    margin: 20px;
+    padding: 5px;
+    border: #386641;
+    border-style: double;
+    border-width: 20px;
+   
+}
+
+h3{
+    display: inline-block;
+    padding: 20px;
+    margin: auto 20px;
+    border:5px solid #a7c957 ;
+    border-radius: 10px;
+    background-color: #6a994e70;
+
+}
+
+.list li{
+    min-height: 30px;
+
+}
+
+.list ul,ol{
+    background-color: #6a994e;
+    padding: 25px 40px ;
+    margin: 10px;
+    border-radius: 10px;
+}
